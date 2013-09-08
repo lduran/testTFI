@@ -22,7 +22,7 @@ public class HolaMundoPlus extends Activity {
         	
         	@Override
         	public void onClick(View arg0) {
-        		// TODO Auto-generated method stub
+        		// Cuando se pulsa el boton se pasa el hash a la actividad
         		Intent intent = new Intent(HolaMundoPlus.this, FrmMensaje.class);
         		Bundle bundle = new Bundle();
         		bundle.putString("NOMBRE", txtNombre.getText().toString());
