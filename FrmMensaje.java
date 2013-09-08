@@ -13,6 +13,7 @@ public class FrmMensaje extends Activity{
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.frmmensaje);
+		// Comentario desde master cargo el text view
 		TextView txtMensaje = (TextView)findViewById(R.id.txtMensaje);
 		Bundle bundle = getIntent().getExtras();
 		txtMensaje.setText("Hola"+ bundle.getString("NOMBRE"));
