@@ -14,6 +14,9 @@ public class FrmMensaje extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.frmmensaje);
 		TextView txtMensaje = (TextView)findViewById(R.id.txtMensaje); //COMENTARIO DESDE TESTTFI
+		//muestro en el textview nombre del usuario
+		TextView txtMensaje = (TextView)findViewById(R.id.txtMensaje);
+
 		Bundle bundle = getIntent().getExtras();
 		txtMensaje.setText("Hola"+ bundle.getString("NOMBRE"));
 }
