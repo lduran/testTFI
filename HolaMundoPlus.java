@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-
+//activity principal
 public class HolaMundoPlus extends Activity {
 
     @Override
